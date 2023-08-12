@@ -39,11 +39,28 @@ button.top-button {
   font-weight: 600;
 }
 
+button.bottom-button {
+  background: #3882f6;
+  border: 1px solid #ffffff;
+  color: white;
+  height: 36px;
+  width: 92px;
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 p.box {
   text-align: center;
 }
 
 .top-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,4 +155,33 @@ p.box {
 
 .middle-content {
   width: 800px;
+}
+
+.fourth-section {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
+  height: 100px;
+  width: 1000px;
+  background: #3882f6;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.footer {
+  height: 100px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1f2937;
+  color: white;
 }
